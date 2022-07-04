@@ -25,12 +25,12 @@
 @media screen and (max-width: 768px) {
   .header {
     min-height: 0;
-    height: 85vh;
+    height: 95vh;
   }
   .header .navbar-collapse {
     position: absolute;
     width: 65%;
-    height: 85vh;
+    height: 95vh;
     top: 0;
     right: 0;
     background: #24252b;
