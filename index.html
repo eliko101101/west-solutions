@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<title>Monza Motosports</title>
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img alt="" src="./img/logo%20(Traced).png"></a> <button aria-controls="navbarText" aria-expanded="false" aria-label="Переключатель навигации" class="navbar-toggler" data-bs-target="#navbarText" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarText">
+					<ul class="navbar-nav mb-2 mb-sm-0 align-items-center">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Inventory</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Financing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contacts</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav mb-2 mb-sm-0 align-items-center">
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img alt="" src="./img/facebook%201.svg"></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img alt="" src="./img/instagram%201.svg"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row justify-content-center justify-content-lg-start">
+				<h1 class="header__title">The right way to get a car</h1>
+			</div>
+			<div class="row d-flex flex-column flex-lg-row justify-content-sm-start">
+				<p class="header__desc col-10 col-sm-8 col-lg-4 col-xl-3">Monza Motorsports is a boutique-style dealership specializing in premium imports. We offer an advanced online vehicle purchasing experience with integrated financing and contactless home delivery.</p>
+				<p class="header__desc col-10 col-sm-8 col-lg-4 col-xl-3">All of our cars come with a 5 day/500 kilometres no-hassle exchange option. Since 2012 Monza Motorsports has been the benchmark for innovation in the automotive industry.</p>
+			</div>
+			<div class="row">
+				<a class="header-button col-6 col-md-3" href="#offers">Browse cars</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="offers" id="offers">
+			<div class="container">
+				<div class="row">
+					<h2 class="offers__title">CURRENT OFFERS</h2>
+				</div>
+				<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+					<div class="offers-select col">
+						<select>
+							<option value="0">
+								Year
+							</option>
+							<option value="1">
+								2014
+							</option>
+							<option value="2">
+								2015
+							</option>
+							<option value="3">
+								2016
+							</option>
+							<option value="4">
+								2017
+							</option>
+							<option value="5">
+								2019
+							</option>
+						</select>
+					</div>
+					<div class="offers-select col">
+						<select>
+							<option value="0">
+								Make
+							</option>
+							<option value="1">
+								Honda
+							</option>
+							<option value="2">
+								Kia
+							</option>
+							<option value="3">
+								Toyota
+							</option>
+							<option value="4">
+								Volkswagen
+							</option>
+							<option value="5">
+								Toyota
+							</option>
+							<option value="6">
+								Volkswagen
+							</option>
+							<option value="7">
+								Honda
+							</option>
+						</select>
+					</div>
+					<div class="offers-select col">
+						<select>
+							<option value="0">
+								Model
+							</option>
+							<option value="1">
+								2014
+							</option>
+							<option value="2">
+								2015
+							</option>
+							<option value="3">
+								2016
+							</option>
+							<option value="4">
+								2017
+							</option>
+							<option value="5">
+								2019
+							</option>
+						</select>
+					</div>
+					<div class="offers-select col">
+						<select>
+							<option value="0">
+								Trim
+							</option>
+							<option value="1">
+								Base
+							</option>
+							<option value="2">
+								Middle
+							</option>
+							<option value="3">
+								High-end
+							</option>
+						</select>
+					</div>
+					<div class="offers-select col">
+						<select>
+							<option value="0">
+								Mileage
+							</option>
+							<option value="1">
+								19,855 km
+							</option>
+							<option value="2">
+								39,850 km
+							</option>
+							<option value="3">
+								59,800 km
+							</option>
+							<option value="4">
+								69,000 km
+							</option>
+							<option value="5">
+								86,000 km
+							</option>
+							<option value="6">
+								95,000 km
+							</option>
+							<option value="7">
+								104,000 km
+							</option>
+						</select>
+					</div>
+					<div class="offers-btn col">
+						<button disabled>40 cars</button>
+					</div>
+				</div>
+				<div class="row d-flex flex-column flex-md-row justify-content-between">
+					<label class="offers-checkbox col-12 col-md-3" id="label">Instantly available vehicles <input id="checkbox" type="checkbox"> <span class="offers-checkbox__checkmark"></span></label>
+					<div class="offers-sort col-12 col-md-5 d-flex justify-content-start justify-content-md-end">
+						<p class="offers-sort__title">Sort by</p><img alt="" class="offers-sort__icon" src="./img/arrows.svg">
+						<div class="offers-sort__select">
+							<select>
+								<option value="0">
+									Publication date (descending)
+								</option>
+								<option value="1">
+									Price (ascending)
+								</option>
+								<option value="2">
+									Price (descending)
+								</option>
+								<option value="3">
+									Mileage (ascending)
+								</option>
+								<option value="4">
+									Mileage (descending)
+								</option>
+								<option value="5">
+									Performance (ascending)
+								</option>
+								<option value="6">
+									Performance (descending)
+								</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center justify-content-xl-start">
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Volkswagen%20Tiguan.png"></div>
+						<p class="offers-car__make"><span>2019</span> Volkswagen Tiguan</p>
+						<p class="offers-car__properties">19,855 km | Automatic | Diesel</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo">
+							<img alt="" src="./img/Toyota%20Highlander%20XLE.png">
+							<div class="offers-car__new">
+								New
+							</div>
+						</div>
+						<p class="offers-car__make"><span>2014</span> Toyota Highlander XLE</p>
+						<p class="offers-car__properties">69,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$27,875</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Lexus%20RX%20350%20LUXURY.png"></div>
+						<p class="offers-car__make"><span>2017</span>Lexus RX 350 LUXURY</p>
+						<p class="offers-car__properties">39,850 km | Automatic | Gas</p>
+						<p class="offers-car__price">$38,775</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20LE%20A.png"></div>
+						<p class="offers-car__make"><span>2016</span> Toyota Highlander LE A...</p>
+						<p class="offers-car__properties">104,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$23,728</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Hyundai%20Elantra.png"></div>
+						<p class="offers-car__make"><span>2017</span> Hyundai Elantra</p>
+						<p class="offers-car__properties">95,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$11,788</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Mercedes-Benz%20GLE-Cl..png"></div>
+						<p class="offers-car__make"><span>2016</span>Mercedes-Benz GLE-Cl...</p>
+						<p class="offers-car__properties">59,800 km | Automatic | Diesel</p>
+						<p class="offers-car__price">$38,878</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__sold">
+							SOLD
+						</div>
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Venza%20AWD%20XLE.png"></div>
+						<p class="offers-car__make"><span>2015</span> Toyota Venza AWD XLE...</p>
+						<p class="offers-car__properties">99,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$18,620</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo">
+							<img alt="" src="./img/Lexus%20RX%20350%20F-SPORT.png">
+							<div class="offers-car__new">
+								New
+							</div>
+						</div>
+						<p class="offers-car__make"><span>2016</span> Lexus RX 350 F-SPORT</p>
+						<p class="offers-car__properties">86,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Volkswagen%20Tiguan.png"></div>
+						<p class="offers-car__make"><span>2019</span> Volkswagen Tiguan</p>
+						<p class="offers-car__properties">19,855 km | Automatic | Diesel</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20XLE.png"></div>
+						<p class="offers-car__make"><span>2014</span> Toyota Highlander XLE</p>
+						<p class="offers-car__properties">69,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$27,875</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Lexus%20RX%20350%20LUXURY.png"></div>
+						<p class="offers-car__make"><span>2017</span> Lexus RX 350 LUXURY</p>
+						<p class="offers-car__properties">39,850 km | Automatic | Gas</p>
+						<p class="offers-car__price">$38,775</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20LE%20A.png"></div>
+						<p class="offers-car__make"><span>2016</span> Toyota Highlander LE A...</p>
+						<p class="offers-car__properties">104,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$23,728</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo">
+							<img alt="" src="./img/Volkswagen%20Tiguan.png">
+							<div class="offers-car__new">
+								New
+							</div>
+						</div>
+						<p class="offers-car__make"><span>2019</span> Volkswagen Tiguan</p>
+						<p class="offers-car__properties">19,855 km | Automatic | Diesel</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20XLE.png"></div>
+						<p class="offers-car__make"><span>2014</span> Toyota Highlander XLE</p>
+						<p class="offers-car__properties">69,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$27,875</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Lexus%20RX%20350%20LUXURY.png"></div>
+						<p class="offers-car__make"><span>2017</span> Lexus RX 350 LUXURY</p>
+						<p class="offers-car__properties">39,850 km | Automatic | Gas</p>
+						<p class="offers-car__price">$38,775</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20LE%20A.png"></div>
+						<p class="offers-car__make"><span>2016</span> Toyota Highlander LE A...</p>
+						<p class="offers-car__properties">104,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$23,728</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Hyundai%20Elantra.png"></div>
+						<p class="offers-car__make"><span>2017</span> Hyundai Elantra</p>
+						<p class="offers-car__properties">95,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$11,788</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Mercedes-Benz%20GLE-Cl..png"></div>
+						<p class="offers-car__make"><span>2016</span>Mercedes-Benz GLE-Cl...</p>
+						<p class="offers-car__properties">59,800 km | Automatic | Gas</p>
+						<p class="offers-car__price">$38,878</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Venza%20AWD%20XLE.png"></div>
+						<p class="offers-car__make"><span>2015</span> Toyota Venza AWD XLE...</p>
+						<p class="offers-car__properties">99,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$18,620</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Lexus%20RX%20350%20F-SPORT.png"></div>
+						<p class="offers-car__make"><span>2016</span> Lexus RX 350 F-SPORT</p>
+						<p class="offers-car__properties">86,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Volkswagen%20Tiguan.png"></div>
+						<p class="offers-car__make"><span>2019</span> Volkswagen Tiguan</p>
+						<p class="offers-car__properties">19,855 kmkm | Automatic | Diesel</p>
+						<p class="offers-car__price">$34,888</p>
+					</div>
+					<div class="offers-car">
+						<div class="offers-car__photo"><img alt="" src="./img/Toyota%20Highlander%20XLE.png"></div>
+						<p class="offers-car__make"><span>2014</span> Toyota Highlander XLE</p>
+						<p class="offers-car__properties">69,000 km | Automatic | Gas</p>
+						<p class="offers-car__price">$27,875</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact">
+			<div class="container">
+				<div class="row d-flex flex-column flex-xl-row align-items-center">
+					<div class="contact-text col-12 col-md-7 col-xl-5">
+						<h4 class="contact-text__title">Haven't found a suitable vehicle?</h4>
+						<p class="contact-text__subtitle">Sign up for our newsletter and be the first to know when we publish new vehicle offers.</p>
+					</div>
+					<form class="contact-form row needs-validation col-12 col-md-7 d-flex flex-column flex-sm-row" novalidate="">
+						<div class="col-md-9 col-sm-8 col-11">
+							<input aria-describedby="emailHelp" class="form-control" placeholder="Enter your email" required="" type="email">
+							<div class="invalid-feedback">
+								Incorrect email
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<button class="contact-form__button btn-outline-success btn-primary" type="submit">Subscribe now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="questions">
+			<div class="container">
+				<div class="row">
+					<h2 class="questions__title">popular questions</h2>
+				</div>
+				<div class="row justify-content-center">
+					<div class=" accordion col-12 col-sm-8">
+						<div class="accordion-section">
+							1. Scope
+							<div class="accordion-section__panel">
+								<p>1.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>1.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>1.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							2. Vehicle characteristics
+							<div class="accordion-section__panel">
+								<p>2.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>2.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>2.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							3. Warranty / guarantee
+							<div class="accordion-section__panel">
+								<p>3.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							4. Trade-in vehicle
+							<div class="accordion-section__panel">
+								<p>4.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>4.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>4.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							5. Home Delivery
+							<div class="accordion-section__panel">
+								<p>5.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>5.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>5.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							6. Right of return
+							<div class="accordion-section__panel">
+								<p>6.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>6.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>6.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							7. Written form
+							<div class="accordion-section__panel">
+								<p>7.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>7.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>7.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+						<div class="accordion-section">
+							8. Applicable law and place of jurisdiction
+							<div class="accordion-section__panel">
+								<p>8.1 The statutory warranty is completely excluded to the extent permitted by law.</p>
+								<p>8.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</p>
+								<p>8.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img alt="" src="./img/logo%20(Traced).png"></a>
+				<div class="col-8">
+					<div class="collapse navbar-collapse justify-content-between" >
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Inventory</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Financing</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacts</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img alt="" src="./img/facebook%201.svg"></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img alt="" src="./img/instagram%201.svg"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+	</script> 
+	<script src="./js/main.js">
+	</script>
+</body>
+</html>

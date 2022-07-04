@@ -1,0 +1,27 @@
+@mixin text($weight,$size,$height,$color){
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+@mixin title {
+    @include text(700,50px,75px,#AEAEAE);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    @media screen and (max-width:768px) {
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+    @media screen and (max-width:576px) {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
